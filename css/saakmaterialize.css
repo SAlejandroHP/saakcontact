@@ -18,3 +18,17 @@ body {
 .main {
   flex: 1 0 auto;
 }
+ul li a:hover{
+  background-color: transparent !important;
+  color: #bdbdbd !important;
+  transition: color .3s;
+}
+.header-intro{
+  letter-spacing: 7px;
+}
+.introduccion-img{
+  position: absolute;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
