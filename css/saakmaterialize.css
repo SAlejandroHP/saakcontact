@@ -18,10 +18,12 @@ body {
 .main {
   flex: 1 0 auto;
 }
-ul li a:hover{
+.menu-saak a:hover{
   background-color: transparent !important;
-  color: #bdbdbd !important;
-  transition: color .3s;
+  color: #ffc107 !important;
+  border-bottom: 1px solid #ffc107;
+  /*transition: border-bottom .1s;*/
+  transition: color, border-bottom .3s;
 }
 .header-intro{
   letter-spacing: 7px;
@@ -31,4 +33,38 @@ ul li a:hover{
   left:0;
   right:0;
   margin: 0 auto;
+}
+.hide-on-small-only
+{
+  display: inline-flex;
+  position: fixed;
+}
+.table-of-contents a.active {
+  border-left: 2px solid #ffc107;
+}
+
+.table-of-contents a:hover {
+  border-left: 1px solid #ffd54f;
+}
+
+/*#logos{
+  background: #bdbdbd;
+}*/
+.header-center{
+  text-align: center;
+}
+.group{
+  overflow: hidden;
+}
+.fin{
+  margin-bottom: 27%;
+}
+.form-contact{
+  /*background: #bdbdbd;*/
+  width: 50%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin: auto;
 }
